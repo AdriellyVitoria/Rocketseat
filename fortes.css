@@ -1,0 +1,168 @@
+/*  
+# TRABANHADO COM FONTES   (https://www.w3.org/TR/css-fonts-3/)
+
+Tipografia transmite mensagem
+
+    - negrito
+    - tamanho
+    - estilo
+
+# Basic font properties
+* font-family -> 
+* font-weight
+* font-style
+* font-size
+
+# Font Family
+
+* Tipo de fonte de um elemento
+* Lista de fontes e ordem de prioridade
+* inclui *fallback* font
+
+''' CSS
+p {
+    font-family "Times New Roman", Times, serif;
+}
+- serif
+- sans
+
+# Font-Weight
+
+* Peso da fonte
+'''CSS 
+p {
+    font-weight: bold;
+}
+
+# Font Style
+* O estilo da fonte
+
+'''css
+span {
+    font-style: italic;
+}
+
+# Font size 
+* Tamanho da fonte
+
+'''CSS
+p{
+    font-size: 12px;
+}
+
+## WEB FONTS  ( https://fonts.google.com/ https://css-tricks.com/snippets/css/using-font-face-in-css/ ) para puxar fontes
+
+#line-height 
+* Espaços entre linhas
+* Pode ser com unidades ou sem unidades de medida
+* Comuns: 1.5 ou 2
+
+'''CSS
+p {
+    line-height: 1.6;
+}
+
+# Font Stretch
+* Alargamento ou encolhimento da fonte
+* Aceita palavras-chaves como: expanded, condensed, normal
+* Aceita porcentagens de 50% a 200%
+* Essa propriedade não vai funcionar em todas as fontes
+p {
+	font-stretch: expanded;
+}
+
+Faz variações na apresentação da fonte
+p {
+	font-variant: small-caps;
+}
+
+# Letter spacing
+Define o espaçamento entre os caracteres
+p {
+	letter-spacing: 4px;
+}
+https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+
+# Word spacing
+Define o espaçamento entre palavras
+p {
+	word-spacing: 1em;
+}
+https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
+
+# Line height
+Define os espaços entre linhas
+Pode ser com unidades ou sem unidades de medida
+Valores comuns: 1.5 ou 2
+    p {
+        line-height: 1.5;
+    }
+   https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+
+# Text transform
+Transformação do texto
+Valores podem ser: none | capitalize | uppercase | lowercase | full-width | full-size-kana
+    p {
+        text-transform: uppercase;
+    }
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+
+# Text decoration
+* Aparência decorativa de um texto
+* line: underline | overline | line-through
+* podemos aplicar mais de 1 valor
+* style: wavy | dotted | double | dashed | solid
+* color: <color> values
+h1 {
+	text-decoration: underline; /* shorthand /
+}
+
+p {
+  text-decoration: wavy overline blue; /* shorthand 
+}
+
+# Text shadow
+Sombra aplicada a um texto
+Permite múltiplos valores
+p {
+  text-shadow: 1px 1px 1px red,
+	       2px 2px 1px green; /* offset-x | offset-y | blur-radius | color 
+        }
+        https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+
+# Shorthand
+Descrição
+Podemos usar o shorthand font para determinar os seguintes valores: font-style, font-variant, font-weight, font-stretch, font-size, line-height e font-family
+p {
+  font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+}
+        
+*/
+
+p {
+    font-family: sans-serif;
+}
+
+.div {
+    font-weight: bold;
+}
+
+span {
+    font-style: italic;
+}
+
+.tamanho {
+    font-size: 30px;
+}
+
+p{
+    text-transform: uppercase;
+}
+
+p {
+	font-variant: small-caps;
+}
+
+.estilo{
+    text-decoration: line-through;
+}

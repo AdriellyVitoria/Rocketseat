@@ -1,0 +1,84 @@
+<!-- <input> Atributos comuns
+    fique de olho em https://caniuse.com
+-autocompleto
+-autofocus
+-disabled
+-readonly (Quase todos)
+-value
+-form (quase todos)
+-name
+-required (Quase todos, para q a informação seja obrigatoria)
+-placeholder (passsword, search, tel, text, )]
+
+select para colocar multiplas opões um menu interrativo
+
+input type"chebkbox"
+-->
+<!-- <form action="">
+    <input type="password"
+        required 
+    >
+
+</form> -->
+<datalist id="urlsdata">
+    <option>buegdhuehd</option>
+    <option value="">hedueudh</option>
+</datalist>
+
+<form action="">
+    <input type="url" 
+    placeholder="http://example.com"
+    pattern=".*/.com/.br/\.*"
+    title="Somente dominios .com.br serão aceitos"
+    required
+    list="urlsdata"
+    spellcheck="false"
+    >
+    <button type="submit"> Enviar</button>
+</form> 
+
+<label for="subcribe">Receber notificaçõa</label>
+<input type="checkbox" accept=".js" 
+name="subcribe" id="subcribe">
+
+<input type="hidden" name="id" value="8">
+
+<input type="radio" name="" id="">
+
+<fieldset>
+    <legend>Bora tomar um café </legend>
+    <label for="yep">Sim</label>
+    <input type="radio" name="coffee" value="yes">
+    <label for="nono">Não</label>
+    <input type="radio" name="coffee" id="no">
+</fieldset>
+<label for="message">Mensagem</label>
+<textarea wrap="off"></textarea> // para ficar em uma linha só
+
+<datalist id="searchterm"> 
+    <option value="">mac</option>
+    <option value=""></option>
+</datalist>
+
+<form action="">
+    <label for="">Pesquisar</label>
+    <input type="search" name="id" size="5"
+    pattern="[0-9]{2}"
+    title="Digete um numero do id: 99"
+   
+    
+    ><button type="submit"> Enviar</button>
+</form>
+
+<form action="">
+    <input type="number" placeholder="100">
+
+    <button>Enviar</button>
+</form>
+
+<input type="range" name="" id=""> 
+
+<input type="date" name="" id="">
+<input type="time" name="" id="">
+<input type="week" name="" id="">
+

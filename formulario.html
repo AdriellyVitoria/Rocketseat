@@ -1,0 +1,126 @@
+<!-- 
+    * Fomularios 
+    -Capturar dados de entrada (input)
+    - interação
+    - Controle
+
+    * Prè requisitos
+    -Básico de HTMl
+
+    * Dominra
+    =Estilização
+    -Validação
+    -Controles customizados
+    -Javascript
+
+    <form>
+        -Elemento que definirá um formulário
+        -È um container estilo <section> <footer>
+
+     Atributod básicos
+        -action
+         -method
+
+
+     #<fieldset>
+        -agrupamneto de campos
+        -mesmo propósito
+        -semântico
+        -acessibilidade
+
+        Atributos especiai
+            *disabled*
+                - DESABILITA todos os elementos internos
+                - não serâo enviados ao submeter o fomulário
+            *form*
+                - o id de um formulario ao qual esse fieldset pertence
+                - não precisa estar dentro do formulário
+            *name*
+                -nome do grupo
+
+            <legend>
+                - nome do agrupamento
+                - primeiro elemento dentro do fieldset
+    Label
+
+    -associar e identificar uma (ou mais ) tag de entrada de dados
+    - acessibilidade
+    -você poderá clicar para mudar o foco da entrada de dados 
+
+    Atributos
+    -for 
+        -para fazer a conexão entre este label e a tag de entrada de dados 
+        -é feita via id do input
+        =só funciona com elementos específicos 
+            buttonn, input(not hidden), meter, output,progress, select, textarea
+    
+     button
+     -Representa um botão
+     - Usado para enviar formularios
+     - é estilizado pelo user agent
+     
+     Atributos comuns
+     -type
+            - submit
+            - reset
+            - button
+        -autofocus
+        -disabled
+        -name
+        -value
+        form
+
+        # datalist
+                -lista de valores como sugestão a uma tag <input>
+                -Valores sugestivos e não obrigatorios
+                -Usuarios poderão selecionar um dos valores, ou colocar um valor diferente da sugestão
+            <datalist id="Fruitsdata"
+            <option>apple</option>
+            <option>banana</option>
+            <option>mango</option>
+            <option>orange</option>
+            <option>cherry</option>
+        # List
+        -Recebe como valor o id de um <datalist> residente no mesmo documento.
+
+        # Tipos de input suportados 
+        -Tesx, seach, url, tel, email, date, month, week, time, datetime-local, nunber, range e color
+        
+        * Valores de datalist que não são compatíveis com o tipo do <input> não serão apresentados.
+
+        # Tipos de input não suportados (conforme especificação)
+        - hidden, password, checkrd, checbox, radio, file, ou qualquer tipo de button.
+
+ -->
+
+<!-- <form action="" method="get">
+    get para email e os post para formulario de usuario  
+    <fieldset>
+        <
+        <legend>contato</legend>
+        <label for="nu"></label>
+        <input type="text">
+
+    </fieldset>
+</form> -->
+
+<!-- <form action="">
+    <fieldset>
+        <legend>Contato</legend>
+
+        <label for="">Nome</label>
+        <input type="text">
+        <button type="reset">Enviar</button>
+    </fieldset>
+</form> -->
+
+<input type="text" list="Fruitsdata" placeholder="Escolha uma fruta">
+
+<datalist id="Fruitsdata" >
+    <option>apple</option>
+    <option>banana</option>
+    <option>mango</option>
+    <option>orange</option>
+    <option>cherry</option>
+</datalist>
+ <input type="color" list="Fruitsdata">
