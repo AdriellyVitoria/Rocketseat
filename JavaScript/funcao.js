@@ -28,14 +28,60 @@ function createPhrases(){
 
 //função scope 
 
-let subject 
+// let subject 
 
-function createThink(){
-    subject = "study"
-    return subject
-}
+// function createThink(){
+//     subject = "study"
+//     return subject
+// }
 
-console.log(subject)
-console.log(createThink(subject))
-console.log(subject)
+// console.log(subject)
+// console.log(createThink(subject))
+// console.log(subject)
 
+// função hoisting
+
+// sayMyName()
+
+// function sayMyName(){
+//     console.log("maky")
+// }
+
+//Arrow fnção
+
+// const sayMyName = (name) => {
+//     console.log(name)
+// }
+// sayMyName("mateus")
+
+//callback função
+
+// function sayMyName(name){
+//     console.log(name)
+// }
+
+// sayMyName(
+//     () => {
+//         console.log("estou em uma callback")
+//     }
+// )
+
+// função constructor
+// *expresão new
+// *criar um novo objeto
+// *this keyword para pegar o atributoi fora da variavel
+// *Colocar a prinmeira letra maiucula é boa pratica 
+
+let name = new String("mayk")
+console.log(name)
+
+// function Person(name) {
+//     this.name = name
+//     this.walk = function(){
+//         return this.name + " está andando"
+//     }
+// }
+// const mayk = new Person("mayk")
+// const joão = new Person("joão")
+// console.log(mayk.walk())
+// console.log(joão.walk())

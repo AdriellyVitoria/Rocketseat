@@ -1,0 +1,32 @@
+/* <!-- Child combinator
+Identificado pelo sinal > entre dois seletores
+seleciona somente o elemento que é filho direto do pai
+Elementos depois do filho direto serão desconsiderados --> */
+
+ /* ul > ul > li {
+    color: red;
+} */
+
+/* Adjacent sibling combinator
+Identificado pelo sinal + entre dois seletores
+Seleciona somente o elemento do lado direito que é irmão direto na hierarquia */
+
+
+/* Seletores muito específicos tendem a causar dificuldades no reuso das regras de estilização
+Muitas vezes, um simples uso de classes, torna o trabalho mais eficiente */
+
+/* h1 + p{
+    color: palevioletred;
+}
+
+button + button {
+    margin-left:  32px;
+} */
+
+.red {
+	color: red;
+}
+
+p.red{
+    color: blue;
+}
