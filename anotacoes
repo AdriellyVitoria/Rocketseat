@@ -1,0 +1,92 @@
+MENU = AZUL ~> OBS... AMARELO ~> CSS... BRANCO ~> HTML
+
+# OBS: para pegar algo espeficicamente, vc pode fazer uma class ou ver se ele tá tendo de uma tag ou dentro de duas tags
+# Site chamado Mobile Input Types. para pegar as informaçoes de type ( email, tel, number, password, date, datetime, month e search)
+# Marcado de itendificações, sempre sem acentações (id (para colocar no css add #e o nome add), class (colocar . e add o nome add))
+# top - cima... left - esquerda... right - direita... bottom - baixo
+# Para procura icones usar_se -> Unicode
+# Hierarquia no css, quando mais especifico a configuração mais forte será a ordem
+# Para pegar modelos de fontes usar o site -> https://fonts.google.com/
+# Pegar elemnetos de fora vai no incopora
+
+/=== FONTES ===/
+
+*Tamanha da fonte -> font-size: (tamanho em px)*
+
+*Usada para definir o estilo da fonte -> font-style (ex:italic)*
+
+*Para deixar a fonte mais forte -> font-weight:bold*
+
+*Alinhamento -> text-aling: center (para centralizar)*
+
+*Para colocar cor no fundo (como um marca texto) -> Background*
+
+*Para colocar no texto (atraves do nome, hexadecimal ou RGB) -> Color*
+
+Img -> para colocar imagems, aperta ctrl+espaços e add a imagems
+header -> para o cabeçario
+footer -> para o rodapé
+form -> para formularios
+fieldset -> referente à configuração de um ou mais campos referentes a um assunto específico, e o título de um fildset é chamado de legend para substituir os p.
+
+input e label -> pára fazer caixa de texto
+input-submit -> para fazer o botão de enviar
+input com type'radio' -> para fazer uma bolinha para clik
+name="" -> para colocar q todos fazam parte da mesma classe e par clika somente em um
+textarea -> para faze uma caixa para mensagem
+select-option -> seletor e suas opções
+required -> para obrigar q os campos sejam preechindos
+placenholder ->para colocar o texto de exemplo dentro da caixa
+ckecked -> para deixar já marcando 
+
+*Para a largura (em percentual % ) -> Width*
+
+*Para a altura (em pixel px) -> Height*
+
+*Espaçamento interno do elemento -> padding (ex: colocar espeça entre as caixas do formulario)*
+
+*Espaçamento externo do elemento -> margin*
+
+*Para dividir o conteudo em partes -> Div*
+
+                 /=== DISPLAY ===/
+
+*Para ocupar todo o espaçamento a linha completa-> block*
+                  
+*Para ocupar um pedaço do espaçamento -> inline (VAI DEIXAR UM AO LADO DO OUTRO)* 
+
+*Para transformar as palavras -> text-transform (para maiuculas uppercase)*
+
+*Margem externa à direita -> margin-right*
+
+*Para arrumar a posicão -> position*
+
+*O navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura -> box-sizing: border-box*
+*Para colocar cor na borda -> border-color*
+*Largura da borda -> border-width*
+*Estilo da borda -> border-style*
+*Para colocar em uma linha tamanho, estilo e cor -> border*
+*Para arredondada as bordas usar -> border-rodiuas (em pixel)*
+*Para altura da linha -> line-height: 1.5*
+*Para colocar a primeira frase em negrito -> :(muda-se para marcar qual o item desejando)-child*
+*Para fazer ummefeito de corem como gradiente ->  background: (linear, radial) -gradient (as cores, (o estilo, em deg, com os valores em %))*
+*Para colocar um icone -> :before content: (ex:"★" escolher oq quiser para add)*
+
+*Para da efeito quando o mouse passar por cima -> houver*
+*Para colocar detalher ao aperta -> text-decoration (underline, para a linha ficar em baixo)*
+*para quando o clique estiver preciomando -> active*
+*Para aumentar a letra ao o mouse passar por cima -> hover e o nome da tag*
+*Define o cursor do mouse como um "ponteiro" sobre determinado elemento -> cursor:pointer*
+*Para a mundaça de cor quando o mouse tive em cima -> transition (o tempo, all)*
+*Para deixa o nome maior -> transform: scale (grau o mais comum 1.2)*
+*Para colocar sombra -> box-shadow*
+
+*Para colocar uma imagem e ela se repetir por toda a tela -> background: url()*
+
+*tabelas usa-se as tag -> table(para fazer a tabela), como cabeçario thead, tr, th (para descrição na tabelas), td (para topicos) e para o corpo tbody*
+
+*A media proporcional para pixels. Se quisermos duas vezes o tamanho base (15 pixels), basta escrever -> 2em.*
+
+*O elemento "descola" da página, mas continua sendo ocupada virtualmente, isto é, o texto respeita esse espaço ocupado -> float*
+
+*para colocar para no lado de cima -> vertical:top*

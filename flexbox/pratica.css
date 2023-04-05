@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 4rem;
+    background: lightgray;
+}
+
+nav {
+    display: flex; /* para colocar um ao lado do outro */
+    justify-content: space-between; /*Espaççmento*/
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+ul li:last-child {
+    background: black;
+    color: white;
+    padding: .8rem;
+}
+
+div {
+    display: flex;
+    min-height: 100vh;
+    gap:.8rem;
+    height: 50vh;
+}
+
+aside{
+    border: 2px solid;
+    background: lightgreen;
+    flex: 1;
+}
+
+main{
+    flex: 2;
+    border: 2px solid;
+   background: palevioletred;
+}
+
+img {
+    width: 25%;
+    height: 29vh;
+    align-items: center;
+
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+
+    line-height: 0;
+    gap: .4rem;
+}
+
+button img {
+    width: 2rem;
+    height: 2rem;
+}
+
+footer p {
+    background: lightgray;
+    align-items: center;
+    height: 10vh;
+}
+
+.ano {
+    align-items: center;
+    display: flex;
+    
+
+}

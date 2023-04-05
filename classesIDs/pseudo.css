@@ -1,0 +1,27 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes para pegar ajuda
+:nth-of-type()
+Pega o elemento por tipo e posição */
+
+/* :nth-child()
+É quando queremos selecionar o primeiro filho de um grupo de elementos. */
+
+/* :nth-child(odd) e :nth-child(even)
+even - números pares
+odd - números ímpares */
+/* 
+
+:hover
+Algumas estilos só são aplicados quando o usuário faz alguma ação na página  */
+
+a:hover {
+  color: rgb(0, 255, 26);
+}
+
+input:focus {
+    border-color: blue;
+}
+
+ul li:nth-child(3) {
+    font-weight: bold;
+    color: red;
+  }
