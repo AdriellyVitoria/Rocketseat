@@ -1,0 +1,41 @@
+* {
+    font-family: Spartan, Work Sans;
+    font-weight: 400, 500, 700;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+}
+
+main {
+    background: black;
+    width: 60%;
+}
+
+header{
+    padding: 3rem;
+    height: 10px;
+}
+
+.texto {
+    padding: 6rem;
+}
+
+aside{
+    width: 40%;
+}
+
+.titulo {
+    color: #08C05E;
+    padding: 1rem;
+}
+
+.frase{
+    color: #FFFFFF;
+}
+
+.descriao{
+    color: #FFFFFF;
+    padding: 1rem;
+}
