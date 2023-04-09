@@ -1,0 +1,13 @@
+{
+    "nome0": "adrile",
+    "cidade": "patos",
+    "telefone": 999999,
+    "livros": [
+        "amor e gelato",
+        "codigo limpo"
+    ],
+    "qual  quer coisa": {
+        "semana": "quinta"
+    }
+    
+}
